@@ -22,6 +22,8 @@ echo("<?xml version=\"1.0\" encoding=\"UTF-8\"?>");
 	else{
 		echo('<a href="includes/logout.php">Logout</a>');
 	}
+
+	echo($_SESSION["debug"]);
  ?>
 
 </body>
